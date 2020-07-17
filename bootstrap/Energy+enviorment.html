@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>CNN</title>
+		<link rel="icon" href="img/cnn-logo-square.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+
+	<body>
+		
+		<div class = "navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a href="#" class="navbar-brand"><div id="theLocation"><img src="img/cnn-logo-square.png" width="50px"></div></a>
+
+				<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="active">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">US<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Crime+Justice</a></li>
+								<li><a href="#">Energy+Enviroment</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">World<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">United Kingdom</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.cnn.com/specials/politics/president-donald-trump-45">Politics</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">Buisness<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://money.cnn.com/data/markets/">Markets</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/">Health</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="breadcrumbPosition">
+			<ol class="breadcrumb text-center">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">US</a></li>
+				<li class="active">Energy+Enviorment</li>
+			</ol>
+		</div>
+
+		<div class="container">
+			<div class="page-header">
+				 <h3>The moon is about 85 million years younger than we thought, new study finds <small>By Scott Andrews</small></h3>
+			</div>
+			<p><br>(CNN)The moon is a constant in our lives. It causes Earth's ocean tides to ebb and flow, it stabilizes the planet's axial tilt and, until recently, it was assumed to have accompanied the Earth for over 4.5 billion years.</p>
+			<p>A new study has posited that previous estimates of the moon's age were millions of years off.Scientists from the German Aerospace Center calculated how long it took the moon's magma ocean -- it's a widely held belief that the lunar surface was once molten -- to cool, and they estimated that the moon is actually almost 100 million years younger than previously thought -- about 85 million years younger, to be exact.So the moon, they say, was actually born at the tail-end of the Earth's formation.</p>
+			<p>"This is the first time that the age of the Moon can be directly linked to an event that occurred at the very end of the Earth's formation, namely the formation of the core," said Thorsten Kleine, study co-author from the Institute of Planetology at the University of Münster in Germany.Their findings were published this month in the journal Science Advances.</p>
+			<p>Many scientists agree on the moon's origin story: Around 4.51 billion years ago, the Earth was still heating up and changing rapidly. During that time, it collided with a protoplanet called Theia, which sent rock shooting off Earth and into space.</p>
+			<p>Theia gets it name from one of the titans in Greek mythology, known as the mother of the moon goddess Selene. Nothing remains of the protoplanet.</p>
+			<img src="img/spacestuff.jpg">
+			<p>This debris eventually collected over a couple thousand years and formed Earth's natural satellite -- the moon.</p>
+			<p>Samples returned from the moon during the Apollo missions and Soviet Luna robototic missions have not helped to provide data for an exact age of the moon. So scientists have had to explore other methods.Using a computer model, the team of scientists estimated how long it took the moon's magma ocean to cool and solidify. Knowing how long that process of crystallization took clued them into how old the moon truly is.Previous models estimated that it took up to 30 million years for the magma ocean to cool. This new study has suggested those models were millions of years off.</p>
+			<p>But how to re-create a process that took place during the very beginning of the solar system's existence? That part required a "great deal of imagination and creativity," the researchers said. The scientists also needed to calculate the composition of the ancient minerals that formed when the ocean solidified. This helped them link different types of rocks to certain stages of the magma ocean's evolution. All that modeling found that it took the moon nearly 200 million years to cool from its molten form and create what we now know as the lunar crust. Scientists looked to the moon's mineral composition to estimate that the moon is around 4.425 billion years old, or 85 million years younger than what previous studies had proven. That's around the time Earth's core settled, the researchers said.</p>
+			
+		</div>
+
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form class="form-horizontal">
+						<div class="modal-header">
+							<h4>Contact Tech Site</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+								<div class="col-lg-10">
+									<input type="Email" class="form-control" id="contact-name" placeholder="example@gmail.com">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" rows="8"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-default" data-dismiss="modal">Close</a>
+							<button class="btn btn-primary" type="submit" onClick="alert('Message Sent');">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p class="navbar-text pull-left">Site Built By Shrey Parikh</p>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

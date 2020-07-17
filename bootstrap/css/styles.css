@@ -1,0 +1,42 @@
+body
+{
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.page-header
+{
+	margin-top: 0;
+}
+.panel-body
+{
+	padding-top: 0;
+}
+.featuredImg
+{
+	margin-bottom: 15px;
+}
+#theLocation
+{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+}
+#breadcrumbPosition
+{
+	position: absolute;
+	top: 50px;
+	width: 100%;
+}
+#theFontType
+{
+	color: black;
+}
+a
+{
+	color: black;
+}
+#theColorOfCarousel
+{
+	color: black;
+	text-shadow: 1px 1px 5px white;
+}

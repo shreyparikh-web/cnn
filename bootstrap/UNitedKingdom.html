@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>CNN</title>
+		<link rel="icon" href="img/cnn-logo-square.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+
+	<body>
+		
+		<div class = "navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a href="#" class="navbar-brand"><div id="theLocation"><img src="img/cnn-logo-square.png" width="50px"></div></a>
+
+				<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="active">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">US<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Crime+Justice</a></li>
+								<li><a href="#">Energy+Enviroment</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">World<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">United Kingdom</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.cnn.com/specials/politics/president-donald-trump-45">Politics</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">Buisness<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://money.cnn.com/data/markets/">Markets</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/">Health</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="breadcrumbPosition">
+			<ol class="breadcrumb text-center">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">World</a></li>
+				<li class="active">UK</li>
+			</ol>
+		</div>
+
+		<div class="container">
+			<div class="page-header">
+				 <h3>Princess Beatrice, daughter of Prince Andrew, marries in secret ceremony in front of Queen<small> By Jeff Senera</small></h3>
+			</div>
+			<p><br>(CNN)Princess Beatrice, the daughter of Prince Andrew and Sarah, Duchess of York, has married her fiancé in a secret wedding at Windsor Castle attended by Queen Elizabeth II. Beatrice tied the knot with real estate developer Edoardo Mapelli Mozzi on Friday, Buckingham Palace confirmed to CNN. The pair have been engaged since September but the coronavirus pandemic interfered with the lead-up to their ceremony. Mapelli Mozzi proposed while the couple were spending a weekend away in Italy last year.</p>
+			<p>"The private wedding ceremony of Princess Beatrice and Mr Edoardo Mapelli Mozzi took place at 11am on Friday 17th July at The Royal Chapel of All Saints at Royal Lodge, Windsor," the palace said in a statement. "The small ceremony was attended by The Queen, The Duke of Edinburgh and close family. The wedding took place in accordance with all relevant Government Guidelines." The palace did not confirm whether Beatrice's father was also present. Prince Andrew, the Duke of York, is facing renewed scrutiny over his alleged sexual assault of Virginia Giuffre and his relationship with convicted sex offender Jeffrey Epstein, following the arrest of Epstein's alleged accomplice, Ghislaine Maxwell, by the FBI. Earlier on Friday it emerged that Andrew's official website had been taken down from the internet. "We are both so excited to be embarking on this life adventure together and can't wait to actually be married," the couple said after their engagement.</p>
+			<img src="img/weddingstuff.jpg">
+			<p>Mapelli Mozzi, who has a 2-year-old son from a previous relationship, is a wealthy businessman, the BBC reported. According to Companies House, he is the director of real estate company Banda Property. Princess Beatrice is ninth in the line of succession to the British throne. She is the granddaughter of the Queen and Prince Philip, the Duke of Edinburgh, and first cousin of Prince William and Prince Harry. In 2018, her younger sister, Eugenie, married Jacks Brooksbank in a ceremony at Windsor. The princess' parents announced their separation and divorced in 1996, sharing joint custody of Beatrice and Eugenie.</p>
+		</div>
+
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form class="form-horizontal">
+						<div class="modal-header">
+							<h4>Contact Tech Site</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+								<div class="col-lg-10">
+									<input type="Email" class="form-control" id="contact-name" placeholder="example@gmail.com">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" rows="8"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-default" data-dismiss="modal">Close</a>
+							<button class="btn btn-primary" type="submit" onClick="alert('Message Sent');">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p class="navbar-text pull-left">Site Built By Shrey Parikh</p>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>CNN</title>
+		<link rel="icon" href="img/cnn-logo-square.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+
+	<body>
+		
+		<div class = "navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a href="#" class="navbar-brand"><div id="theLocation"><img src="img/cnn-logo-square.png" width="50px"></div></a>
+
+				<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" class="active">Home</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">US<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Crime+Justice</a></li>
+								<li><a href="#">Energy+Enviroment</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">World<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">United Kingdom</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.cnn.com/specials/politics/president-donald-trump-45">Politics</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle = "dropdown">Buisness<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://money.cnn.com/data/markets/">Markets</a></li>
+							</ul>
+						</li>
+						<li><a href="https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/">Health</a></li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="breadcrumbPosition">
+			<ol class="breadcrumb text-center">
+				<li><a href="#">Home</a></li>
+				<li class="active">World</li>
+			</ol>
+		</div>
+
+		<div class="container">
+			<center><img src="img/world.jpg" width="1000"></center>
+			<h1>Other Articles:</h1>
+			<h3><a href="#">Princess Beatrice, daughter of Prince Andrew, marries in secret ceremony in front of Queen</a></h3>
+		</div>
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<form class="form-horizontal">
+						<div class="modal-header">
+							<h4>Contact Tech Site</h4>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<label for = "contact-name" class="col-lg-2 control-label">Name:</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for = "contact-email" class="col-lg-2 control-label">Email:</label>
+								<div class="col-lg-10">
+									<input type="Email" class="form-control" id="contact-name" placeholder="example@gmail.com">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for = "contact-msg" class="col-lg-2 control-label">Message:</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" rows="8"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-default" data-dismiss="modal">Close</a>
+							<button class="btn btn-primary" type="submit" onClick="alert('Message Sent');">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p class="navbar-text pull-left">Site Built By Shrey Parikh</p>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
